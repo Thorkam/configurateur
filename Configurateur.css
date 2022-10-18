@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.block1{
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+
+.img1{
+    position: absolute;
+    z-index: -2;
+}
+
+.img2{
+    position: absolute;
+    z-index: -1;
+}
+
+.textTab{
+    position: absolute;
+    z-index: 0;
+    top: 345px;
+    left: 320px;
+    transform: rotate(-10deg);
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+
+.prix{
+    color: gray;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 10px;
+}
+.couleurTab{
+    background-color: gray;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cercleTab{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#cercle1 {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: yellow;
+        border: 4px solid gray;
+    }
+
+
+#cercle2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background: orangered;
+    }
+
+#cercle3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background: violet;
+    }
+
+.couleurPoc{
+    background-color: gray;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cerclePoc{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#cercleA {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blue;
+    border: 4px solid gray;
+}
+
+#cercleB {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: purple;
+}
+
+#cercleC {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: red;
+}
+
+#cercleD {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: lightgreen;
+}
+
+
+.textePerso{
+    background-color: gray;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.radio{
+    font-weight: bold;
+    text-align: center;
+}
+
+.votreText1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.votreText2{
+    text-align: left;
+    padding: 5px;
+    width: 150px;
+    height: 20px;
+}
+::placeholder{
+    color: black;
+    border-color: lightgray;
+    font-size: large;
+}
+
+.cercleText1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items :center;
+    
+}
+
+.cercleText2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+#cercleTblack {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: black;
+}
+
+#cercleTblue {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blue;
+    border: 4px solid gray;
+}
+
+#cercleTpurple{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: purple;
+}
+
+#cercleTred {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: red;
+}
+#cercleTlightgreen {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: lightgreen;
+}
+
+#cercleTyellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: yellow;
+}
+
+#cercleTorangered {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: orangered;
+}
